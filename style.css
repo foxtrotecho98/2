@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+li{
+    list-style: none;
+}
+body{
+    background-color: black;
+}
+.menu{
+    margin-bottom: 20px;
+}
+.centered-menu{
+    width: 100%;
+}
+.centered-menu{
+   width: 80%;
+    padding-bottom: 50px;
+   margin: 0 auto;
+   background-color: black;
+   height: 30px;
+   border-bottom: 1px solid rgb(133, 133, 133);
+}
+
+.nav-left{
+    float: left;
+}
+
+
+.nav-left-brand{
+    font-size: 30px;
+    border-bottom: 2px solid black;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-left-brand:hover{
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(136, 136, 136);
+}
+
+.nav-right{
+    padding-top: 10px;
+    float: right;
+}
+
+.nav-right-menu{
+    float: right;
+
+}
+
+.nav-right-menu-buttons{
+    border-bottom: 2px solid black;
+    color: rgb(136, 136, 136);
+    margin: 0 10px;
+    font-size: 20px;
+    transition: all 1s;
+    border-width: 1px;
+}
+
+.nav-right-menu-buttons:hover, .active{
+    text-decoration: none;
+    color:white;
+    border-bottom: 2px solid white;
+    border-width: 2px;
+}
+
+.services{
+    text-align: center;
+    margin: 0 auto;
+    background-color: black;
+    width: 80%;
+    border-bottom: 1px solid rgb(165, 165, 165);
+}
+
+.services h1{
+    color: rgb(211, 211, 211);
+    font-weight: lighter;
+    padding-bottom: 10px;
+}
+
+.services p{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    color: rgb(114, 114, 114);
+    font-weight: lighter;
+    padding-bottom: 10px;
+}
+
+.services h4{
+
+    padding-bottom: 10px;
+}
+
+.portfolio{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.portfolio h1{
+    font-weight: lighter;
+    font-family: sans-serif;
+    color: rgb(211, 211, 211);
+}
+
+
+.portfolio-core img{
+    width: 100%;
+}
+
+
+
+.standards{
+    text-align: center;
+    margin: 0 auto;
+    background-color: black;
+    width: 80%;
+    
+}
+
+
+.standards h1{
+    color: rgb(211, 211, 211);
+    font-weight: lighter;
+
+}
+
+.standards p{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    color: rgb(114, 114, 114);
+    font-weight: lighter;
+}
+
+.standards-core{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 30px;
+
+}
+.standards-core-item{
+ background-color: black;
+    
+}
+.standards-core-item h4{
+    font-weight: lighter;
+    padding-top: 20px;
+    color: rgb(211, 211, 211);
+    
+}
+.standards-core-item p{
+    width: 80%;
+    
+}
+
+.bold-white{
+    color: rgb(212, 212, 212);
+    font-weight: bold;
+}
+
+
+.portfolio{
+    margin-top: 50px;
+    width: 100%;
+}
+
+.portfolio{
+    margin-top: 20px;
+    width: 100%;
+}
+
+.portfolio-core{
+    margin: 10px 0px;
+}
